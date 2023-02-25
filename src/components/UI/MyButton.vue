@@ -16,5 +16,9 @@ export default {
   background: none;
   color: teal;
   border: 1px solid teal;
+  cursor: pointer;
+}
+.btn:disabled {
+  cursor: default;
 }
 </style>
